@@ -1,11 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>title</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-      <h1>TEST</h1>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <title>tacotron2 samples</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="column left-column">
+            <h3>Female voice</h3>             
+            <div>
+                <h4>Ground truth</h4>
+                    <audio controls>
+                        <source src="audio/long_03n_test_017.wav" type="audio/wav">
+                    </audio>
+            </div>
+            <div>
+                <h4>Tacotron-WaveNet</h4>
+                    <audio controls>
+                        <source src="audio/03n-females-03n_excluded--wavenet-03n017.wav" type="audio/wav">
+                    </audio>
+            </div>
+            <div>
+                <h4>Tacotron-WaveNet-30-min</h4>
+                    <audio controls>
+                        <source src="audio/03n30s-females-03n_excluded--wavenet-03n30s-isot_persot-03n_excluded017.wav" type="audio/wav">
+                    </audio>
+            </div>
+            <div>
+                <h4>Tacotron-WaveNet-10-min</h4>
+                    <audio controls>
+                        <source src="audio/03n10s-females-03n_excluded--wavenet-03n10s-isot_persot-03n_excluded017.wav" type="audio/wav">
+                    </audio>
+            </div>
+            <div>
+                <h4>Tacotron-WaveGlow</h4>
+                    <audio controls>
+                        <source src="audio/03n-females-03n_excluded--waveglow017.wav" type="audio/wav">
+                    </audio>
+            </div>
+            <div>
+                <h4>Tacotron-WaveGlow</h4>
+                    <audio controls>
+                        <source src="audio/03n-females-03n_excluded--griffin_lim017.wav" type="audio/wav">
+                    </audio>
+            </div>
+        </div>
+        <div class="column right-column">
+            <h3>Male voice</h3>             
+            <div>
+                <h4>Ground truth</h4>
+                    <audio controls>
+                        <source src="audio/long_03m_test_017.wav" type="audio/wav">
+                    </audio>
+            </div>
+            <div>
+                <h4>Tacotron-WaveNet</h4>
+                    <audio controls>
+                        <source src="audio/03m-males-03m_excluded--wavenet-03m017.wav" type="audio/wav">
+                    </audio>
+            </div>
+            <div>
+                <h4>Tacotron-WaveNet-30-min</h4>
+                    <audio controls>
+                        <source src="audio/03m30s-males-03m_excluded--wavenet-03m30s-isot_persot-03m_excluded017.wav" type="audio/wav">
+                    </audio>
+            </div>
+            <div>
+                <h4>Tacotron-WaveNet-10-min</h4>
+                    <audio controls>
+                        <source src="audio/03m10s-males-03m_excluded--wavenet-03m10s-isot_persot-03m_excluded017.wav" type="audio/wav">
+                    </audio>
+            </div>
+            <div>
+                <h4>Tacotron-WaveGlow</h4>
+                    <audio controls>
+                        <source src="audio/03m-males-03m_excluded--waveglow017.wav" type="audio/wav">
+                    </audio>
+            </div>
+            <div>
+                <h4>Tacotron-WaveGlow</h4>
+                    <audio controls>
+                        <source src="audio/03m-males-03m_excluded--griffin_lim017.wav" type="audio/wav">
+                    </audio>
+            </div>
+        </div>
+    </body>
 </html>

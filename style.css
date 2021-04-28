@@ -1,0 +1,11 @@
+.column {
+  display: inline-block;
+}
+
+.left-column {
+  padding-right: 35px;
+}
+
+.right-column {
+  padding-left: 35px;
+}
